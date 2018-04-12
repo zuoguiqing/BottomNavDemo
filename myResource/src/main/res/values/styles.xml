@@ -1,0 +1,81 @@
+<resources>
+
+    <!--自定义弹出框-->
+    <style name="PopwTv">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/router_black</item>
+    </style>
+
+    <style name="PopwBToTAnima" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popw_arise</item>
+        <item name="android:windowExitAnimation">@anim/popw_drop</item>
+    </style>
+
+    <style name="PopwRToLAnima" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popw_to_left</item>
+        <item name="android:windowExitAnimation">@anim/popw_to_right</item>
+    </style>
+
+    <!--SheetDialog-->
+    <style name="SheetDialog" parent="android:Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/SheetDialogAnimation</item>
+    </style>
+
+    <!--SheetDialog进出动画 -->
+    <style name="SheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <!--透明dialog主题-->
+    <style name="TransparentDialog" parent="@style/Base.Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:alertDialogStyle">@style/TransparentDialog.Color</item>
+        <item name="colorAccent">@color/router_gray</item>
+    </style>
+
+    <style name="TransparentDialog.Color" parent="@style/Base.Theme.AppCompat.Dialog">
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+    </style>
+
+    <!--日历星期栏-->
+    <style name="DateTitleSty">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+        <item name="android:background">@color/gray_f3</item>
+    </style>
+
+    <!--air calendar-->
+    <style name="AirStartEndTime">
+        <item name="android:textColor">@color/black_23</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColorHint">@color/gray_66</item>
+    </style>
+
+</resources>

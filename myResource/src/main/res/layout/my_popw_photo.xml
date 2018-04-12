@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/trans"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp_15"
+    android:paddingLeft="@dimen/dp_15"
+    android:paddingRight="@dimen/dp_15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_white_so5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gallery"
+            style="@style/PopwTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:text="相册" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#999999" />
+
+        <TextView
+            android:id="@+id/camera"
+            style="@style/PopwTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:text="相机" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginTop="@dimen/dp_15"
+        android:background="@color/trans"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cancel"
+            style="@style/PopwTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:background="@drawable/my_white_so5"
+            android:text="取消" />
+
+    </LinearLayout>
+
+</LinearLayout>

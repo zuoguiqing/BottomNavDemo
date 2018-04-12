@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    //预订弹窗top
+    <solid android:color="@color/gray_s" />
+
+    <corners
+        android:topRightRadius="@dimen/dp_5"
+        android:topLeftRadius="@dimen/dp_5"/>
+</shape>

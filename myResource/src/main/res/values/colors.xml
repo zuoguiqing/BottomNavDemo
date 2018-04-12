@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基本颜色-->
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="trans">#00000000</color>
+    <color name="router_black">#323232</color>
+    <color name="router_gray">#b1bdc7</color>
+    <!--控件要得-->
+    <color name="gray_s">#f6f6f6</color>
+    <color name="gray_s_bg">#bfbfbf</color>
+    <!--app颜色-->
+    <color name="gray_50">#5000</color>
+    <color name="gray_f8">#f8f8f8</color>
+    <color name="gray_f6">#f6f6f6</color>
+    <color name="gray_9a">#9a9a9a</color>
+    <color name="gray_9e">#9e9e9e</color>
+    <color name="gray_bc">#bcbcbc</color>
+    <color name="gray_b1">#b1bdc7</color>
+    <color name="gray_b5">#B5B8C2</color>
+    <color name="gray_8a">#8a99a6</color>
+    <color name="gray_c4">#c4cbd2</color>
+    <color name="gray_f7">#f7f8f8</color>
+    <color name="gray_d6">#d6d9db</color>
+    <color name="gray_c7">#c7d1d9</color>
+    <color name="gray_ca">#caccce</color>
+    <color name="gray_85">#8594a1</color>
+    <color name="gray_dd">#dde2e5</color>
+    <color name="gray_f3">#f3f5f7</color>
+    <color name="gray_f4">#F4F5F7</color>
+    <color name="gray_e4">#e4e4e4</color>
+    <color name="gray_e6">#e6e6e6</color>
+    <color name="gray_a6">#a6b0b8</color>
+    <color name="gray_fa">#fafbfc</color>
+    <color name="gray_80">#808080</color>
+    <color name="gray_cc">#cccccc</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_7f">#7F7F7F</color>
+    <color name="gray_98">#989898</color>
+    <color name="gray_da">#f1f1f1</color>
+
+    <color name="black_33">#333333</color>
+    <color name="black_32">#323232</color>
+    <color name="black_23">#232323</color>
+    <color name="black_24">#242424</color>
+    <color name="black_46">#46403e</color>
+    <color name="black_90">#9000</color>
+    <color name="black_64">#646261</color>
+    <color name="black_78">#787878</color>
+    <color name="black_66">#666</color>
+    <color name="black_trans">#b14b4b4b</color>
+
+    <color name="blue_4c">#4caef2</color>
+    <color name="blue_2d">#2D95EF</color>
+    <color name="blue_ab">#ABDAFE</color>
+    <color name="blue_46">#467aa8</color>
+    <color name="blue_28">#2891ef</color>
+    <color name="blue_2f">#2F9AEE</color>
+    <color name="blue_77">#778fe7</color>
+    <color name="blue_a0">#a0b4fd</color>
+    <color name="blue_c8">#c8e6ff</color>
+    <color name="blue_da">#DAE1FB</color>
+
+    <color name="green_73">#739696</color>
+
+    <color name="orange_f0">#f06331</color>
+    <color name="orange_f9">#f97343</color>
+    <color name="orange_fa">#fa7581</color>
+
+    <color name="red">#ff0000</color>
+    <color name="red_fe">#fe493c</color>
+    <color name="red_fc">#FC2A2B</color>
+    <color name="red_f8">#F85D9A</color>
+    <color name="red_e0">#E01717</color>
+    <color name="red_ff">#FF0101</color>
+
+    <color name="green_4e">#4ecca8</color>
+</resources>

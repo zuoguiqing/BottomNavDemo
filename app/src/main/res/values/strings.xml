@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstHomeDemo</string>
+
+    <string name="first_home">首页</string>
+</resources>
