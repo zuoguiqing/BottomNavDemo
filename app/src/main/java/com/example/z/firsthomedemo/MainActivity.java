@@ -19,7 +19,8 @@ import butterknife.ButterKnife;
 
 
 /**
-*  @describe  -- 不带滑动的
+*  @describe  -- 不带滑动的 注：此方式有缺陷，通过onBack按键销毁时，会执行onSaveInstanceState
+ *  之后会有异常抛出，--在activity销毁之后执行了commit();  就说这么多了，欢迎某某来解决^o^
 *  @author zgq
 *  @version 1.0
 *  @date 2018/4/4
@@ -32,6 +33,11 @@ public class MainActivity extends MyBaseActivity {
     RadioGroup rg;
     private ArrayList<Fragment> fragments;
     private FragmentControl fragmentControl;
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
