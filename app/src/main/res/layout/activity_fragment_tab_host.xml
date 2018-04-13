@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout_nr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <android.support.v4.app.FragmentTabHost
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <include layout="@layout/h_gray_line" />
+
+        <RadioGroup
+            android:id="@+id/rg_main_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_home"
+                style="@style/MainBtnStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:drawableTop="@drawable/home_img"
+                android:text="@string/first_home" />
+
+
+            <RadioButton
+                android:id="@+id/rb_act"
+                style="@style/MainBtnStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/act_img"
+                android:text="活动" />
+
+            <RadioButton
+                android:id="@+id/rb_video"
+                style="@style/MainBtnStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/video_img"
+                android:text="视频" />
+
+            <RadioButton
+                android:id="@+id/rb_me"
+                style="@style/MainBtnStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/me_img"
+                android:text="我的" />
+        </RadioGroup>
+
+    </FrameLayout>
+    >
+
+</LinearLayout>
